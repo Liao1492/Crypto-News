@@ -1,0 +1,19 @@
+@use "/src/styles/abstract/" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 800px) {
+    .ant-menu {
+        position: absolute;
+        right: 0px;
+    }
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

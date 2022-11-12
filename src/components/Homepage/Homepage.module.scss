@@ -1,0 +1,25 @@
+@use "/src/styles/abstract/" as *;
+
+.homeHeadingContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    .showMore {
+        margin-top: 0px !important;
+    }
+    @media screen and (max-width: 800px) {
+        .homeTitle {
+            font-size: 1.4rem !important;
+        }
+        .showMore {
+            font-size: 1.3rem !important;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .heading {
+            margin-top: 20px;
+        }
+    }
+}

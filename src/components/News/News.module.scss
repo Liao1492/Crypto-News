@@ -1,0 +1,30 @@
+.selectNews {
+    width: 180px;
+}
+.newsCard {
+    min-height: 300px !important;
+}
+.newsImageContainer {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.newsTitle {
+    width: 70%;
+}
+
+.newsImageContainer .img {
+    width: 100px;
+    height: 100px;
+}
+.newsCard p {
+    color: black;
+    margin: 10px 0px !important;
+}
+
+.providerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.providerName {
+    margin-left: 10px;
+}

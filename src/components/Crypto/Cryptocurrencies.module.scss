@@ -1,0 +1,16 @@
+@use "/src/styles/abstract/" as *;
+
+.cryptoCardContainer {
+    min-height: 65vh !important;
+    .cryptoCard {
+        min-width: 250px;
+    }
+    .cryptoCard .cryptoImage {
+        width: 35px;
+    }
+}
+
+.searchCrypto {
+    margin: 20px auto 30px auto;
+    width: 250px;
+}
